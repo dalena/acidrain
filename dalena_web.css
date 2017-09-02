@@ -1,0 +1,165 @@
+body {
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+@font-face {
+	font-family: 'khodkar';
+	src: url('font/khodkar.eot');
+	src: url('font/khodkar.otf')
+	format('opentype');
+}
+
+div#main_canvas_container {
+	background-color: #272528;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div#main_canvas_container_bg {
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color:#292826;
+	background-image: url(safe-mode.gif);
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+div#simple_preloader_container > div > div{
+	color: transparent !important;
+	border: none !important;
+}
+
+div#salad {
+	width:20%;
+	position:relative;
+	margin:50px;
+
+}
+
+div#thingsalwaysfall {
+    position: absolute;
+    width: 100%;
+    font-family: 'khodkar';
+    font-size: 20px;
+    color: #fff;
+    background-color: hsla(0, 15%, 17%, 0.59);
+    padding: 25px;
+}
+div#inplace {
+    float: right;
+    text-align: right;
+    padding-left: 15px;
+}
+div#intendtoshatter {
+    float: left;
+}
+
+@media screen and (max-width: 2051px) {
+    div#salad {
+    	width:25%;
+    }
+    div#thingsalwaysfall{
+    	font-size:18px;
+    }
+}
+
+@media screen and (max-width: 1482px) {
+    div#salad {
+    	width:30%;
+    }
+    div#thingsalwaysfall{
+    	font-size:18px;
+    }
+}
+@media screen and (max-width: 1235px) {
+    div#salad {
+    	width:35%;
+    }
+    div#thingsalwaysfall{
+    	font-size:18px;
+    }
+}
+@media screen and (max-width: 1059px) {
+    div#salad {
+    	width:40%;
+    }
+    div#thingsalwaysfall{
+    	font-size:18px;
+    }
+}
+@media screen and (max-width: 926px) {
+    div#salad {
+    	width:45%;
+    }
+    div#thingsalwaysfall{
+    	font-size:16px;
+    }
+}
+@media screen and (max-width: 735px) {
+    div#salad {
+    	width:50%;
+    }
+    div#thingsalwaysfall{
+    	font-size:14px;
+    }
+}
+@media screen and (max-width: 583px) {
+    div#salad {
+    	width:55%;
+    }
+    div#thingsalwaysfall{
+    	font-size:14px;
+    }
+}
+@media screen and (max-width: 530px) {
+    div#salad {
+    	width:60%;
+    }
+    div#thingsalwaysfall{
+    	font-size:14px;
+    }
+}
+@media screen and (max-width: 486px) {
+    div#salad {
+    	width:65%;
+    }
+    div#thingsalwaysfall{
+    	font-size:12px;
+    }
+}
+@media screen and (max-width: 387px) {
+    div#salad {
+    	width:70%;
+    }
+    div#thingsalwaysfall{
+    	font-size:12px;
+    }
+}
+@media screen and (max-width: 360px) {
+    div#salad {
+    	width:75%;
+    	margin:20px;
+    }
+    div#thingsalwaysfall{
+    	font-size:12px;
+    }
+}
+@media screen and (max-width: 336px) {
+    div#salad {
+    	width:80%;
+    	margin:10px;
+    }
+    div#thingsalwaysfall{
+    	font-size:12px;
+    }
+}
